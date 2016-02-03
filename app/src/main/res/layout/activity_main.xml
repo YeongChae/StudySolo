@@ -12,16 +12,30 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_android"
-        android:textSize="40sp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="#fc87e8"
-        android:textColor="#d50000"/>
+        android:text="Hello_android"
+        android:textColor="#d50000"
+        android:textSize="40sp" />
 
-    <ImageView
-        android:src="@drawable/hyun"
-        android:scaleType="centerCrop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fc87e8"
+        android:text="PINK"
+        android:textColor="#d50000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fc87e8"
+        android:text="남자는 핑쿠"
+        android:textColor="#d50000"
+        android:textSize="40sp" />
+
 
 </LinearLayout>
