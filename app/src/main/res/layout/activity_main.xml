@@ -10,33 +10,96 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/hello_text_View1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#fc87e8"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:text="Hello_android"
-        android:textColor="#d50000"
-        android:textSize="40sp" />
+        android:background="#4CAF50"
+        android:text="Hello"
+        android:textSize="24sp" />
 
     <TextView
+        android:id="@+id/hello_text_View1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#fc87e8"
-        android:layout_alignParentRight="false"
-        android:text="PINK"
-        android:textColor="#d50000"
-        android:textSize="40sp" />
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/hello_text_View1"
+        android:text="1번왼쪽"
+        android:textSize="24sp" />
 
     <TextView
+        android:id="@+id/hello_text_View1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#fc87e8"
-        android:layout_centerVertical="true"
-        android:text="남자는 핑쿠"
-        android:textColor="#d50000"
-        android:textSize="40sp" />
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/hello_text_View1"
+        android:text="1번위쪽"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#673AB7"
+        android:text="Android"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/hello_text_View2"
+        android:text="2번위쪽"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/hello_text_View2"
+        android:text="2번오른쪽"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/hello_text_View3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#4CAF50"
+        android:text="수원스마트"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/hello_text_View3"
+        android:text="3번왼쪽"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/hello_text_View3"
+        android:text="3번오른쪽"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hello_text_View3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hello_text_View3"
+        android:text="3번오른쪽"
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
