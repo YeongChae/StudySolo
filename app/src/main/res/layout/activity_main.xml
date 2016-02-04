@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hyun" />
+
     <TextView
+        android:layout_gravity="right"
+        android:gravity="bottom"
         android:id="@+id/hello_text_View1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,87 +27,5 @@
         android:text="Hello"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/hello_text_View1_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@id/hello_text_View1"
-        android:text="1번왼쪽"
-        android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/hello_text_View1_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_above="@id/hello_text_View1"
-        android:text="1번위쪽"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="#673AB7"
-        android:text="Android"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View2_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_above="@id/hello_text_View2"
-        android:text="2번위쪽"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View2_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/hello_text_View2"
-        android:text="2번오른쪽"
-        android:textSize="24sp" />
-
-
-    <TextView
-        android:id="@+id/hello_text_View3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:background="#4CAF50"
-        android:text="수원스마트"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View3_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_toLeftOf="@id/hello_text_View3"
-        android:text="3번왼쪽"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View3_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_toRightOf="@id/hello_text_View3"
-        android:text="3번오른쪽"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/hello_text_View3_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/hello_text_View3"
-        android:text="3번오른쪽"
-        android:textSize="24sp" />
-
-
-</RelativeLayout>
+</FrameLayout>
