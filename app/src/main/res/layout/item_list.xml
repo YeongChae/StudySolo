@@ -7,14 +7,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="1"
         android:scaleType="centerCrop"
         android:src="@drawable/hyun" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:background="#2f8e2d"
         android:orientation="vertical">
 
@@ -26,8 +25,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="2"
+                android:layout_height="wrap_content"
                 android:text="You're invited!"
                 android:textColor="#ffffff"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
@@ -35,8 +33,7 @@
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:textColor="#ffffff"
                 android:text="Bonfire at the beach"
