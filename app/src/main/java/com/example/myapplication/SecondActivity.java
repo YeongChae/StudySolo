@@ -35,7 +35,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             mNameTextView.setText(mNameTextView.getText().toString() + name);
             mAgeTextView.setText(mAgeTextView.getText().toString() + age);
         }
-
     }
 
     @Override
