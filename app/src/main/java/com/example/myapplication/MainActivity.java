@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
@@ -31,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
         // TextView 글자를 변형
         if (isChecked) {
-            mTextView.setText("체크됨");
+            mTextView.setVisibility(View.VISIBLE);
         } else {
-            mTextView.setText(" ");
+            mTextView.setVisibility(View.INVISIBLE);
         }
     }
 
